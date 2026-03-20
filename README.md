@@ -14,3 +14,11 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Formatting (Prettier + Tailwind)
+
+This template includes Prettier and `prettier-plugin-tailwindcss` preconfigured.
+
+- Run `npm run format` to format files.
+- Run `npm run format:check` to verify formatting in CI.
+- For VS Code/Cursor, the workspace settings in `.vscode/settings.json` set Prettier as the default formatter and enable format-on-save.
