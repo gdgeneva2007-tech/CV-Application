@@ -14,4 +14,5 @@ function App() {
   );
 }
 
+for (let i = 0; i < 5; i++) console.log('hello');
 export default App;
