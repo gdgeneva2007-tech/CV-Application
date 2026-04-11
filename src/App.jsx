@@ -1,18 +1,19 @@
 import { useState } from 'react';
-
+import { Link } from 'react-router';
 function App() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-100 p-8">
-      <h1 className="text-3xl font-bold text-blue-600 underline">
-        Hello Tailwind v4!
-      </h1>
-      <p className="mt-4 text-gray-600">
-        Start editing{' '}
-        <code className="rounded bg-gray-200 p-1">src/App.jsx</code>
-      </p>
+    <div>
+      <h1>Hello from the main page of the app!</h1>
+      <p>Here are some examples of links to other pages</p>
+      <nav>
+        <ul>
+          <li>
+            <Link to="profile">Profile page</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 }
 
-for (let i = 0; i < 5; i++) console.log('hello');
 export default App;
